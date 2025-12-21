@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.app{
+    min-height: 100vh;
+    padding: 20px;
+    transition: all 0.3 ease;
+}
+.app.light{
+    background-color: aqua;
+    color: #fff;
+
+}
+.theme-btn{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.post-list{
+    display: grid;
+    grid-template-columns: repeat((auto-fit));
+}
+.post-card{
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
+}
+.app-card h3{
+    margin: 0 0 10px;
+}
+.action button{
+    margin-right: 10px;
+    cursor: pointer;
+}
